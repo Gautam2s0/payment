@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:  serif;
+}
+.mainCard{
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    /* border:1px solid red; */
+    gap: 5%;
+ 
+}
+
+#cardImg{
+    width: 30vw;
+    height: 32vh;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 15px;
+}
+#Inner{
+    width: 90%;
+    margin: auto;
+}
+#Inner:focus{
+    display: block;
+}
+#type{
+   
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+#img{
+    width: 50px;
+    height: 35px;
+    border-radius: 15%;
+}
+#cardN{
+   
+    margin: auto;
+    margin-top: 2%;
+    margin-top: 8%;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+ 
+}
+#NameCv{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+#name{
+    font-size: 1.5rem;
+}
+#cvv{
+    font-size: 1.1rem;
+
+}
+/* ***************************************** */
+#CardForm{
+    width: 48%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 5px;
+}
+
+#cardNumber,#CardHolder,#month,#cvc{
+    height: 45px;
+    border-radius: 6px;
+    border-color: gray;
+    padding-left: 5px;
+
+}
+#eg{
+    font-size: 1.3rem;
+}
+#dateCVc{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  */
+
+#cvvCard{
+    display: none;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+#cvvCard:focus{
+    display: block;
+
+}
+#black{
+    margin-top: 5%;
+    background: #000;
+    height: 50px;
+}
+#showcvv{
+    width: 80%;
+    height: 40px;
+    margin-top: 3%;
+    background-color: antiquewhite;
+   margin-bottom: 5%;
+   color: #333;
+   font-size: 1.5rem;
+   text-align: end;
+   padding-right: 10px;
+
+}
